@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ксюша - Моя улюблена ❤️</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 25%, #764ba2 75%, #667eea 100%);
+        background-attachment: fixed;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .container {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        padding: 50px;
+        max-width: 600px;
+        text-align: center;
+        animation: slideIn 0.8s ease-out;
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .hearts {
+        font-size: 40px;
+        margin-bottom: 20px;
+        animation: float 3s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+
+      h1 {
+        color: #764ba2;
+        font-size: 48px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .subtitle {
+        color: #667eea;
+        font-size: 24px;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+
+      .reasons {
+        background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+        border-radius: 15px;
+        padding: 30px;
+        margin: 30px 0;
+        border-left: 5px solid #764ba2;
+      }
+
+      .reasons h2 {
+        color: #764ba2;
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+
+      .reasons ul {
+        list-style: none;
+        text-align: left;
+      }
+
+      .reasons li {
+        color: #333;
+        margin: 12px 0;
+        font-size: 16px;
+        padding-left: 30px;
+        position: relative;
+      }
+
+      .reasons li:before {
+        content: "💕";
+        position: absolute;
+        left: 0;
+        animation: pulse 2s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+      }
+
+      .quote {
+        font-size: 20px;
+        font-style: italic;
+        color: #666;
+        margin: 30px 0;
+        padding: 20px;
+        background: #f8f8f8;
+        border-radius: 10px;
+        border-top: 3px solid #667eea;
+      }
+
+      .footer {
+        color: #764ba2;
+        font-size: 18px;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 2px solid #eee;
+      }
+
+      .emoji-row {
+        font-size: 50px;
+        margin: 20px 0;
+        letter-spacing: 10px;
+        animation: bounce 2s ease-in-out infinite;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      .highlight {
+        color: #764ba2;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hearts">❤️ 💕 💖</div>
+
+      <h1>Ксюша ✨</h1>
+      <p class="subtitle">Моя найулюбленіша людина у світі</p>
+
+      <div class="emoji-row">💑 👰 💍</div>
+
+      <div class="reasons">
+        <h2>Чому я так її люблю:</h2>
+        <ul>
+          <li>Її чарівна посмішка, що змушує мене посміхатися</li>
+          <li>Її доброе серце і турбота про мене</li>
+          <li>Її гумор, що робить мене щасливим щодня</li>
+          <li>Її красота як зовні, так і всередину</li>
+          <li>Те, як вона робить моє життя чарівним</li>
+          <li>Її підтримка у складні моменти</li>
+          <li>Те, як вона дивиться на мене</li>
+          <li>Просто вона, така какая вона є 🌹</li>
+        </ul>
+      </div>
+
+      <div class="quote">"Вона - моя найкраща рішення в житті" 💝</div>
+
+      <p style="color: #333; font-size: 18px; line-height: 1.6">
+        <span class="highlight">Ксюша</span>, ти робиш мій день яскравішим
+        щодня. Дякую за те, що ти є в моєму житті. Ти - моя любов, моя мрія, моє
+        щастя ✨
+      </p>
+
+      <div class="footer">
+        <p>Зроблено з 💕 для моєї найулюбленішої 💕</p>
+        <p style="font-size: 14px; margin-top: 10px; color: #999">
+          ~ Тобі з любов'ю ~
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
